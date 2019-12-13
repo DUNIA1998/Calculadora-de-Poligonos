@@ -52,7 +52,12 @@
     <Compile Include="Calculadora de PolígonosForm.Designer.cs">
       <DependentUpon>Calculadora de PolígonosForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="UNA\Poligonos\Circulo.cs" />
+    <Compile Include="UNA\Poligonos\Pentagono.cs" />
+    <Compile Include="UNA\Poligonos\Rectangulo.cs" />
+    <Compile Include="UNA\Poligonos\Triangulo.cs" />
+    <Compile Include="UNA\Poligonos\Poligono.cs" />
+    <Compile Include="UNA\Poligonos\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Calculadora de PolígonosForm.resx">
       <DependentUpon>Calculadora de PolígonosForm.cs</DependentUpon>
@@ -75,12 +80,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="UNA\Poligonos\Poligono.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UNA\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
