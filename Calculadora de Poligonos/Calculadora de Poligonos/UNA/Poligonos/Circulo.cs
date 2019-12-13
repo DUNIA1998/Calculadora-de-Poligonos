@@ -15,6 +15,12 @@ namespace Poligono
             }
         }
 
+        public Circulo()
+        {
+            Nombre = "Circulo";
+
+        }
+
         public override double CalcularArea()
         {
             double area;

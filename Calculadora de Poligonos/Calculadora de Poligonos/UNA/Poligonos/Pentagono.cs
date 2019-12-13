@@ -22,6 +22,11 @@ namespace Poligono
             {
             }
         }
+        public Pentagono()
+        {
+            Nombre = "Pentagono";
+
+        }
 
         public override double CalcularArea()
         {

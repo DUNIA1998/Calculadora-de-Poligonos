@@ -23,6 +23,11 @@ namespace Poligono
             }
         }
 
+        public Rectangulo()
+        {
+            Nombre = "Rectangulo";
+
+        }
         public override double CalcularArea()
         {
             double area;

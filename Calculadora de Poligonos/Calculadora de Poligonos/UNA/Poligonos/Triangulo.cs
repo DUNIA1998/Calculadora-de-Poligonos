@@ -47,6 +47,11 @@ namespace Poligono
             }
         }
 
+        public Triangulo()
+        {
+            Nombre = "Triangulo";
+
+        }
         public override double CalcularArea()
         {
             double area;
